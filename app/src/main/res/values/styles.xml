@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="textViewVertical" parent="@android:style/Widget.TextView">
+        <item name="com.ggccnu.tinynote:font">fonts/FZLongZhaoJW.ttf</item>
+        <!-- item name="ggccnunynote:font">fonts/KangXi.ttf</item-->
+    </style>
+
+</resources>

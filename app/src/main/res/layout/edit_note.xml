@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_note_edit_content"
+            android:text="今天天气真好"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+
+        <com.ggccnu.tinynote.widget.ButtonPlus
+            android:id="@+id/edit"
+            android:text="改"
+            style="@style/textViewVertical"
+            android:textSize="@dimen/abc_text_size_title_medium"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="35dp"
+            android:textColor="#faf6f6" />
+        <com.ggccnu.tinynote.widget.ButtonPlus
+            android:id="@+id/save"
+            android:text="存"
+            style="@style/textViewVertical"
+            android:textSize="@dimen/abc_text_size_title_medium"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="35dp"
+            android:textColor="#faf6f6" />
+        <com.ggccnu.tinynote.widget.ButtonPlus
+            android:id="@+id/delete"
+            android:text="删"
+            style="@style/textViewVertical"
+            android:textSize="@dimen/abc_text_size_title_medium"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:textColor="#faf6f6" />
+
+    </LinearLayout>
+</LinearLayout>
